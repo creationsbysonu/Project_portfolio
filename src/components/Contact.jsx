@@ -40,6 +40,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="w-full p-4 mt-2 bg-gray-800 text-white rounded-lg"
+                placeholder="Enter your name"
               />
             </div>
             <div>
@@ -52,6 +53,7 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 className="w-full p-4 mt-2 bg-gray-800 text-white rounded-lg"
+                placeholder="Enter your email"
               />
             </div>
           </div>
@@ -65,6 +67,7 @@ const Contact = () => {
               required
               className="w-full p-4 mt-2 bg-gray-800 text-white rounded-lg"
               rows="6"
+              placeholder="Enter your message"
             ></textarea>
           </div>
           <button

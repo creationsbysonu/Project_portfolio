@@ -3,24 +3,24 @@ import React from "react";
 const Works = () => {
   const projects = [
     {
-      title: "Project One",
+      title: "Project E-Commerce",
       description:
-        "A short description of your first project. Showcase your skills and achievements with this project.",
-      image: "https://via.placeholder.com/400x300",
+        "Creating a complete ecommerce site using MERN stack where users can create account, purchase product, add reviews, make payment",
+      image: "https://media.istockphoto.com/id/1206806317/vector/shopping-cart-icon-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=1RRQJs5NDhcB67necQn1WCpJX2YMfWZ4rYi1DFKlkNA=",
       link: "#", // Add your project link
     },
     {
-      title: "Project Two",
+      title: "Project Portfolio",
       description:
         "A brief overview of your second project. Highlight the unique aspects of the project.",
-      image: "https://via.placeholder.com/400x300",
+      image: "https://cdn-icons-png.flaticon.com/512/4727/4727366.png",
       link: "#", // Add your project link
     },
     {
-      title: "Project Three",
+      title: "Notes and study materials.",
       description:
         "Overview of your third project. Focus on the most impactful features and technologies used.",
-      image: "https://via.placeholder.com/400x300",
+      image: "https://media.istockphoto.com/id/1340657509/vector/floral-book-isolated-clipart-opened-book-and-wildflowers-boho-decorative-composition-flower.jpg?s=612x612&w=0&k=20&c=kVv2fPJrJcBZ37RgwqKxs42mAXVmyRdCm9Ez8hz40UI=",
       link: "#", // Add your project link
     },
   ];

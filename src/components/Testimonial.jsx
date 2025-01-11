@@ -15,19 +15,19 @@ const Testimonial = () => {
           {/* Testimonial 1 */}
           <div className="bg-gray-800 p-8 rounded-lg shadow-lg hover:shadow-xl transition-all">
             <p className="text-gray-400 text-lg mb-4">
-              "Working with [Your Name] was an incredible experience. The level
+              "Working with Sonu was an incredible experience. The level
               of professionalism and attention to detail was unparalleled. Highly
               recommend!"
             </p>
             <div className="flex items-center justify-center">
               <img
-                src="https://via.placeholder.com/50"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKzwVKQG5n0OqBE0MzziiKRh2m_4WX4y-K5A&s"
                 alt="Testimonial 1"
                 className="rounded-full w-12 h-12 object-cover mr-4"
               />
               <div>
-                <h4 className="text-white font-semibold">John Doe</h4>
-                <p className="text-gray-400 text-sm">CEO, Example Company</p>
+                <h4 className="text-white font-semibold">Chanda Gupta</h4>
+                <p className="text-gray-400 text-sm">Optometrist and M.Sc. student at Univeristy of IndianaPollis</p>
               </div>
             </div>
           </div>
@@ -41,13 +41,13 @@ const Testimonial = () => {
             </p>
             <div className="flex items-center justify-center">
               <img
-                src="https://via.placeholder.com/50"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOuxrvcNMfGLh73uKP1QqYpKoCB0JLXiBMvA&s"
                 alt="Testimonial 2"
                 className="rounded-full w-12 h-12 object-cover mr-4"
               />
               <div>
-                <h4 className="text-white font-semibold">Jane Smith</h4>
-                <p className="text-gray-400 text-sm">Marketing Manager, XYZ Inc.</p>
+                <h4 className="text-white font-semibold">Dipesh Yadav</h4>
+                <p className="text-gray-400 text-sm">Chartered Acoountant</p>
               </div>
             </div>
           </div>
@@ -55,19 +55,18 @@ const Testimonial = () => {
           {/* Testimonial 3 */}
           <div className="bg-gray-800 p-8 rounded-lg shadow-lg hover:shadow-xl transition-all">
             <p className="text-gray-400 text-lg mb-4">
-              "The team at [Your Name] brought our vision to life. The
-              attention to detail and user experience focus made the project a
-              huge success."
+              "The team at Sonu brought our vision to life. The
+              attention to detail and user experience focus made the project a huge success. looking forward to work more with him."
             </p>
             <div className="flex items-center justify-center">
               <img
-                src="https://via.placeholder.com/50"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOuxrvcNMfGLh73uKP1QqYpKoCB0JLXiBMvA&s"
                 alt="Testimonial 3"
                 className="rounded-full w-12 h-12 object-cover mr-4"
               />
               <div>
-                <h4 className="text-white font-semibold">Alice Johnson</h4>
-                <p className="text-gray-400 text-sm">Product Manager, ABC Ltd.</p>
+                <h4 className="text-white font-semibold">Ritesh Sahani</h4>
+                <p className="text-gray-400 text-sm">Bachelors in Computer Engineering at IOE Purwanchal Campus, Dharan</p>
               </div>
             </div>
           </div>

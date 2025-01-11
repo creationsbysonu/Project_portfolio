@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex justify-center lg:justify-start space-x-6">
           {/* GitHub */}
           <a
-            href="https://github.com"
+            href="https://github.com/creationsbysonu"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gray-800 p-3 rounded-full hover:bg-orange-500 transition-all text-2xl"
@@ -20,7 +20,7 @@ const Footer = () => {
 
           {/* Facebook */}
           <a
-            href="https://facebook.com"
+            href="https://www.facebook.com/share/15vVL93he5/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gray-800 p-3 rounded-full hover:bg-orange-500 transition-all text-2xl"
@@ -31,7 +31,7 @@ const Footer = () => {
 
           {/* Instagram */}
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/___gupta___sonu?igsh=MXZpNXN0eXNibnJ5Zg=="
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gray-800 p-3 rounded-full hover:bg-orange-500 transition-all text-2xl"
@@ -42,7 +42,8 @@ const Footer = () => {
 
           {/* YouTube */}
           <a
-            href="https://youtube.com"
+            href="https://youtube.com/@xxsonuwaxx?si=jHNdsObGz7PKjtWn
+"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gray-800 p-3 rounded-full hover:bg-orange-500 transition-all text-2xl"
@@ -53,7 +54,7 @@ const Footer = () => {
 
           {/* Medium */}
           <a
-            href="https://medium.com"
+            href="https://medium.com/@sonugupta.ioepc.edu.np"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-gray-800 p-3 rounded-full hover:bg-orange-500 transition-all text-2xl"
@@ -98,8 +99,8 @@ const Footer = () => {
       {/* Copyright Section */}
       <div className="text-center text-sm">
         <p>
-          © {new Date().getFullYear()} Your Name. All Rights Reserved. Built
-          with ❤️ using React and Tailwind CSS.
+          © {new Date().getFullYear()} Sonu Gupta. All Rights Reserved. Built
+          with ❤️ using React and Tailwind CSS. Checkout my GitHub page for source code.
         </p>
       </div>
     </footer>

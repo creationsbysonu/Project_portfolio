@@ -14,7 +14,7 @@ const Navbar = () => {
           }
         });
       },
-      { threshold: 0.3 } // Trigger when 60% of the section is visible
+      { threshold: 0.3 } // Triggers when 30% of the section is visible
     );
 
     sections.forEach((section) => observer.observe(section));
@@ -29,7 +29,7 @@ const Navbar = () => {
     { id: "skills", label: "Skills" },
     { id: "works", label: "Works" },
     { id: "experiences", label: "Experiences" },
-    { id: "testimonial", label: "Testimonial" },
+    { id: "testimonial", label: "Testimonials" },
     { id: "contact", label: "Contact" },
   ];
 
@@ -41,7 +41,7 @@ const Navbar = () => {
           to={link.id}
           smooth={true}
           duration={500}
-          className={`text-sm lg:text-base font-medium hover:underline transition-all ${
+          className={`text-sm lg:text-base font-medium hover:underline transition-all cursor-pointer ${
             activeSection === link.id ? "text-orange-500" : "text-white"
           }`}
         >

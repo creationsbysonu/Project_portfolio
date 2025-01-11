@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 const TextEffect = () => {
-  const texts = ["Web Developer", "UI/UX Designer", "Problem Solver"];
+  const texts = ["Building webistes ?", " or UI/UX Design ?", " or Problem Solving ?"];
   const [currentText, setCurrentText] = useState(0);
   const [fadeIn, setFadeIn] = useState(true);
   const [fadeOut, setFadeOut] = useState(false); // State for fading out the page
@@ -38,7 +38,7 @@ const TextEffect = () => {
       }`} // Apply the fade-out class
     >
       <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white text-center">
-        Hi, I'm a{" "}
+        Hi there !, Are you seeking for {" "}
         <span
           className={`inline-block transition-opacity duration-500 ${
             fadeIn ? "opacity-100" : "opacity-0"
@@ -48,7 +48,7 @@ const TextEffect = () => {
         </span>
       </h1>
       <p className="mt-4 text-gray-400 text-sm md:text-lg text-center max-w-lg">
-        Welcome to my portfolio! I'm passionate about building beautiful, functional, and user-friendly digital experiences.
+        Explore the world of software, AI, ML and Design magic with me :)
       </p>
     </div>
   );

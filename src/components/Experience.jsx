@@ -4,24 +4,24 @@ const Experiences = () => {
   const experiences = [
     {
       title: "Software Developer Intern",
-      company: "Tech Solutions Inc.",
-      duration: "Jan 2023 - Jun 2023",
+      company: "Digital Pathshala",
+      duration: "Dec 2024 - Current",
       description:
         "Developed and optimized web applications using React and Node.js, improving performance by 25%. Collaborated with cross-functional teams to deliver scalable solutions.",
     },
     {
       title: "Freelance Developer",
       company: "Self-Employed",
-      duration: "Jul 2022 - Dec 2022",
+      duration: "Jul 2022 - Dec 2024",
       description:
         "Designed and implemented responsive websites for clients, integrating APIs and ensuring excellent user experience.",
     },
     {
-      title: "Bachelor of Computer Science",
-      company: "XYZ University",
-      duration: "2019 - 2023",
+      title: "Bachelor of Computer Engineering",
+      company: "Tribhuvan University",
+      duration: "2021 - 2025",
       description:
-        "Graduated with honors. Completed projects in AI, machine learning, and web development, showcasing technical expertise and innovative problem-solving.",
+        "Studying BE in Computer Engineering. Completed projects in AI, machine learning, and web development, showcasing technical expertise and innovative problem-solving.",
     },
   ];
 

@@ -15,22 +15,22 @@ const Skills = () => {
     {
       name: "MongoDB",
       description: "NoSQL database management.",
-      image: "https://cdn-icons-png.flaticon.com/512/919/919836.png", // MongoDB Icon
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMzlF0cI1C-682U2HcOpqjigAIxmhmEuBmdA&s", // MongoDB Icon
     },
     {
       name: "Tailwind CSS",
       description: "Modern, responsive styling.",
-      image: "https://cdn-icons-png.flaticon.com/512/5968/5968672.png", // Tailwind CSS Icon
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png", // Tailwind CSS Icon
     },
     {
-      name: "JavaScript",
-      description: "ES6+ and modern web development.",
-      image: "https://cdn-icons-png.flaticon.com/512/5968/5968292.png", // JavaScript Icon
+      name: "MySQL",
+      description: "Handling database through use of PhpMyAdmin in built in XAMPP.",
+      image: "https://cdn-icons-png.flaticon.com/512/919/919836.png", // JavaScript Icon
     },
     {
       name: "Git & GitHub",
       description: "Version control and collaboration.",
-      image: "https://cdn-icons-png.flaticon.com/512/2111/2111288.png", // Git Icon
+      image: "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg", // Git Icon
     },
     {
       name: "Python",
