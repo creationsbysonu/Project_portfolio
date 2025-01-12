@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import TextEffect from './components/TextEffect'; // Assuming this is the path
-import Navbar from './components/Navbar'
 import Body from './components/Body';
 const App = () => {
   return (

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 const TextEffect = () => {
-  const texts = ["Building webistes ?", " or UI/UX Design ?", " or Problem Solving ?"];
+  const texts = ["for Building webistes ?", " or UI/UX Design ?", " or Problem Solving ?"];
   const [currentText, setCurrentText] = useState(0);
   const [fadeIn, setFadeIn] = useState(true);
   const [fadeOut, setFadeOut] = useState(false); // State for fading out the page
@@ -38,7 +38,7 @@ const TextEffect = () => {
       }`} // Apply the fade-out class
     >
       <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white text-center">
-        Hi there !, Are you seeking for {" "}
+        Hi there !, Are you seeking {" "}
         <span
           className={`inline-block transition-opacity duration-500 ${
             fadeIn ? "opacity-100" : "opacity-0"
